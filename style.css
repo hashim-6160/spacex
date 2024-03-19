@@ -95,29 +95,10 @@ body{
     padding-top: 20px;
     padding-left: 0px;
 }
-.ham{
-    position: relative;
-    display: block;
-    width: 33px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
-    padding-left: 10px;
-
+.button svg{
+    margin-top: 29px;
 }
-.ham .bar, .ham::after, .ham::before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    margin: 3px 0px;
-    transition: 0.4s;
 
-}
 .tabs1{
     
     font-weight: bold;
